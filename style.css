@@ -45,7 +45,7 @@ nav {
   font-family: 'Syne', sans-serif;
   font-weight: 800;
   font-size: 0.85rem;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--accent);
 }
@@ -96,7 +96,7 @@ section:first-of-type { padding-top: 9rem; }
 }
 .hero-name {
   font-family: 'Syne', sans-serif;
-  font-size: clamp(2.8rem, 6vw, 4.8rem);
+  font-size: clamp(1.8rem, 4vw, 3rem);
   font-weight: 800;
   line-height: 1.05;
   color: var(--text);
@@ -169,9 +169,9 @@ section:first-of-type { padding-top: 9rem; }
   background: var(--card);
   border: 1px solid var(--sand);
   border-radius: 12px;
-  padding: 1.2rem 1.6rem;
+  padding: 0.9rem 1rem;
   text-align: center;
-  min-width: 130px;
+  min-width: 90px;
   transition: border-color 0.2s, box-shadow 0.2s;
 }
 .stat-box:hover {
@@ -180,7 +180,7 @@ section:first-of-type { padding-top: 9rem; }
 }
 .stat-num {
   font-family: 'Syne', sans-serif;
-  font-size: 2rem;
+  font-size: 1.4rem;
   font-weight: 800;
   color: var(--accent);
 }
